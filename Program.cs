@@ -236,14 +236,14 @@ namespace ConsoleApp5
                 Console.WriteLine("3-Print specfic item");
                 Console.WriteLine("4-Remove item");
                 int answer = int.Parse(Console.ReadLine());
-                DoingFunction(answer, dogs);
+               
 
 
             } while (true);
 
 
 
-
+            Console.WriteLine("Hello");
 
 
             Console.ReadLine();
