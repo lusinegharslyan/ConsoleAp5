@@ -88,8 +88,6 @@ namespace ConsoleApp5
             return newArray;
         }
 
-
-
         //Data with dogs
         public static string[] AddingData(string[] dogs)
         {
@@ -103,7 +101,6 @@ namespace ConsoleApp5
             newDogs[newDogs.Length - 1] = name + " " + age + " " + price;
             return newDogs;
         }
-
 
         public static void PrintingAllItems(string[] dogs)
         {
@@ -222,10 +219,7 @@ namespace ConsoleApp5
             //    Console.WriteLine("4-Remove item");
             //    int answer = int.Parse(Console.ReadLine());
             //    DoingFunction(answer, dogs);
-                
-
             //} while (true);
-
 
             do
             {
@@ -236,18 +230,12 @@ namespace ConsoleApp5
                 Console.WriteLine("3-Print specfic item");
                 Console.WriteLine("4-Remove item");
                 int answer = int.Parse(Console.ReadLine());
-                DoingFunction(answer, dogs);
+            } 
+            while (true);
 
-
-            } while (true);
-
-
-
-
-
+            Console.WriteLine("Hello");
 
             Console.ReadLine();
         }
-
     }
 }
